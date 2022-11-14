@@ -3,6 +3,9 @@ import { Shell } from 'ui';
 // @ts-ignore
 import { CardPicker } from 'cardpicker/CardPicker';
 
+// @ts-ignore
+import { TopNumber } from 'topnumber/TopNumber';
+
 function App() {
   return (
     <Shell title="Game Zone">
@@ -14,7 +17,7 @@ function App() {
         }}
       >
         <CardPicker />
-        <div>something</div>
+        <TopNumber />
       </div>
     </Shell>
   );

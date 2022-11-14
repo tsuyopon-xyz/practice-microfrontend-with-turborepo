@@ -1,10 +1,5 @@
 import { Shell } from 'ui';
-// Using module federetion of webpacker.
-// @ts-ignore
-import { CardPicker } from 'cardpicker/CardPicker';
-
-// @ts-ignore
-import { TopNumber } from 'topnumber/TopNumber';
+import { CardPicker, TopNumber } from 'games';
 
 function App() {
   return (

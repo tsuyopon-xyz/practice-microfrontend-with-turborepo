@@ -69,3 +69,5 @@ export const CardPicker = () => {
     </Paper>
   );
 };
+
+export default CardPicker;
